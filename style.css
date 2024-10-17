@@ -88,7 +88,7 @@ a {
   opacity: 0.5;
 }
 
-@media (max-width: 37.5rem) {
+@media (max-width: 375px) {
   .header .title h1 {
     font-size: 24px;
   }
@@ -153,7 +153,7 @@ a {
   justify-content: end;
 }
 
-@media (max-width: 114rem) {
+@media (max-width: 1080px) {
   .main .cards-container{
     flex-direction: column;
   }
@@ -161,4 +161,6 @@ a {
   .main .cards-container .card {
     max-width: 50rem;
   }
+
+
 }
